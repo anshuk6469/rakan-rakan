@@ -3,8 +3,6 @@ terraform {
     bucket = "anshuk64691"
     key = "terraform.tfstate"
     region = "us-east-1"
-    access_key = "AKIAZI2LHRHSANGQXGVY"
-    secret_key = "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"
   }
   required_providers {
     azurerm = {
@@ -27,8 +25,6 @@ provider "azurerm" {
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAZI2LHRHSANGQXGVY"
-  secret_key = "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"
 }
 
 # block-type "block-label" {
