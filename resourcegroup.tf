@@ -1,7 +1,7 @@
-# resource "azurerm_resource_group" "example" {
-#   name     = "Deep-rg"
-#   location = "eastus2"
-# }
+resource "azurerm_resource_group" "example" {
+  name     = "Deep-rg"
+  location = "eastus2"
+}
 
 # Resource names must be unique per type in each module.
 # resource "azurerm_resource_group" "example2" {  #Same resource type can't have same local-name
